@@ -6,6 +6,7 @@ namespace OwnInputOutputDecorator.Implements.Inputs
     {
         public ButtonInputStream(string input) : base(input)
         {
+            _input = $"You did click on me: {input}";
         }
     }
 }
